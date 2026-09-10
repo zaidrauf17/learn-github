@@ -1,11 +1,15 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 const App = () => {
-  return (
-    <div className="w-full h-screen bg-blue-400 flex justify-center items-center">
-      <h1 className="text-white">THis is Home Page</h1>
-    </div>
-  );
+ return(
+  <>
+
+  <div className="w-full h-screen bg-amber-100 ">
+    <Navbar/>
+  </div>
+  </>
+ )
 };
 
 export default App;
